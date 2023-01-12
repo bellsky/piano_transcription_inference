@@ -32,7 +32,7 @@ Base path_url is C:/Users/'username'/piano_transcription_inference_data/note_F1=
 
 Users could also execute the inference code line by line:
 ```
-from piano_transcription_inference import PianoTranscription, sample_rate, load_audio
+from piano_transcription_bellsky import PianoTranscription, sample_rate, load_audio
 
 # set audio_path
 audio_path = ('Your_Path')
@@ -43,7 +43,7 @@ audio_path = ('Your_Path')
 # Transcriptor
 transcriptor = PianoTranscription(device='cpu', checkpoint_path=None)  # device: 'cuda' | 'cpu'
 
-# Transcribe and write out to MIDI file   # second args is output file name. save at -
+# Transcribe and write out to MIDI file   # second args is output file name. file will be saved at -
 transcribed_dict = transcriptor.transcribe(audio, 'cut_liszt.mid')
 ```
 
