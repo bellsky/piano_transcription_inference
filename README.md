@@ -1,4 +1,7 @@
-#this repo Work with librosa 0.9.0
+# this repo Work with librosa 0.9.0
+
+package for doremi-sketch
+https://github.com/jymh22/doremi-sketch
 
 # Piano transcription inference
 
