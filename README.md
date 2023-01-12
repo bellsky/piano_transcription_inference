@@ -1,3 +1,5 @@
+#this repo Work with librosa 0.9.0
+
 # Piano transcription inference
 
 This toolbox is a piano transcription inference package that can be easily installed. Users can transcribe their favorite piano recordings to MIDI files after installation. To see how the piano transcription system is trained, please visit: https://github.com/bytedance/piano_transcription.
