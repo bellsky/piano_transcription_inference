@@ -10,7 +10,7 @@ The piano transcription system is developed with Python 3.7 and PyTorch 1.4.0 (S
 Install PyTorch following https://pytorch.org/. Users should have **ffmpeg** installed to transcribe mp3 files.
 
 ```
-pip install git+https://github.com/bellsky/piano_transcription_bellsky.git pip install git
+pip install git+https://github.com/bellsky/piano_transcription_inference
 ```
 
 Installation is finished! 
