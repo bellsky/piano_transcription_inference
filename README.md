@@ -27,19 +27,23 @@ Want to try it out but don't want to install anything? We have set up a [Google 
 python3 example.py --audio_path='resources/cut_liszt.mp3' --output_midi_path='cut_liszt.mid' --cuda
 ```
 
-This will download the pretrained model from https://zenodo.org/record/4034264. 
+This will download the pretrained model from https://zenodo.org/record/4034264.
+Base path_url is C:/Users/'username'/piano_transcription_inference_data/note_F1=0.9677_pedal_F1=0.9186
 
 Users could also execute the inference code line by line:
 ```
 from piano_transcription_inference import PianoTranscription, sample_rate, load_audio
 
+# set audio_path
+audio_path = ('Your_Path')
+
 # Load audio
 (audio, _) = load_audio(audio_path, sr=sample_rate, mono=True)
 
 # Transcriptor
-transcriptor = PianoTranscription(device='cuda', checkpoint_path=None)  # device: 'cuda' | 'cpu'
+transcriptor = PianoTranscription(device='cpu', checkpoint_path=None)  # device: 'cuda' | 'cpu'
 
-# Transcribe and write out to MIDI file
+# Transcribe and write out to MIDI file   # second args is output file name. save at -
 transcribed_dict = transcriptor.transcribe(audio, 'cut_liszt.mid')
 ```
 
