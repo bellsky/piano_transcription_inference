@@ -3,7 +3,7 @@ import argparse
 import torch
 import time
 
-from piano_transcription_inference import PianoTranscription, sample_rate, load_audio
+from piano_transcription_bellsky import PianoTranscription, sample_rate, load_audio
 
 
 def inference(args):
