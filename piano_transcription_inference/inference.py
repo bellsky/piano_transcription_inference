@@ -15,7 +15,7 @@ from . import config
 
 class PianoTranscription(object):
     def __init__(self, model_type='Note_pedal', checkpoint_path=None, 
-        segment_samples=16000*10, device=torch.device('cuda')):
+        segment_samples=16000*10, device=torch.device('cpu')):
         """Class for transcribing piano solo recording.
 
         Args:
