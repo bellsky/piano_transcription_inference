@@ -1,9 +1,14 @@
 # this repo Work with librosa 0.9.0
 
 package for doremi-sketch
+```
 https://github.com/jymh22/doremi-sketch
+```
 
-# and shoud use 'pip install git+https://github.com/bellsky/torchlibrosa'
+# and shoud use updated torchlibrosa
+```
+'pip install git+https://github.com/bellsky/torchlibrosa'
+```
 instead pip install librosa at requirements
 
 # Piano transcription inference
