@@ -18,6 +18,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['matplotlib', 'mido', 'librosa>=0.9.0', 'git+https://github.com/bellsky/torchlibrosa'],
+    install_requires=['matplotlib', 'mido', 'librosa>=0.9.0'],
     python_requires='>=3.6',
 )
