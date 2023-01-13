@@ -32,8 +32,10 @@ Installation is finished!
 Want to try it out but don't want to install anything? We have set up a [Google Colab](https://colab.research.google.com/github/qiuqiangkong/piano_transcription_inference/blob/master/resources/inference.ipynb).
 
 ```
-python3 example.py --audio_path='resources/cut_liszt.mp3' --output_midi_path='cut_liszt.mid' --cuda
+python example.py --audio_path='resources/cut_liszt.mp3' --output_midi_path='cut_liszt.mid' --cuda
 ```
+If you using not windows, maybe start whit 'python3' not python
+
 
 This will download the pretrained model from https://zenodo.org/record/4034264.
 Base path_url is C:/Users/'username'/piano_transcription_inference_data/note_F1=0.9677_pedal_F1=0.9186
