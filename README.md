@@ -5,12 +5,6 @@ package for doremi-sketch
 https://github.com/jymh22/doremi-sketch
 ```
 
-# and shoud use updated torchlibrosa
-```
-'pip install git+https://github.com/bellsky/torchlibrosa'
-```
-instead pip install librosa at requirements
-
 # Piano transcription inference
 
 This toolbox is a piano transcription inference package that can be easily installed. Users can transcribe their favorite piano recordings to MIDI files after installation. To see how the piano transcription system is trained, please visit: https://github.com/bytedance/piano_transcription.
@@ -26,6 +20,12 @@ Install PyTorch following https://pytorch.org/. Users should have **ffmpeg** ins
 pip install git+https://github.com/bellsky/piano_transcription_inference
 ```
 
+# and shoud install updated torchlibrosa
+```
+'pip install git+https://github.com/bellsky/torchlibrosa'
+```
+
+instead pip install librosa at requirements
 Installation is finished! 
 
 ## Usage
