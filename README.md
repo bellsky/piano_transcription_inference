@@ -22,7 +22,7 @@ pip install git+https://github.com/bellsky/piano_transcription_inference
 
 # and shoud install updated torchlibrosa
 ```
-'pip install git+https://github.com/bellsky/torchlibrosa'
+pip install git+https://github.com/bellsky/torchlibrosa
 ```
 
 instead pip install librosa at requirements
